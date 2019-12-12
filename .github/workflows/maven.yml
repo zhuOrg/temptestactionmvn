@@ -14,7 +14,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B -T 2.0C package --file pom.xml
     - name: azd with Maven
       run: mvn --version
     - name: azazzd with Maven
