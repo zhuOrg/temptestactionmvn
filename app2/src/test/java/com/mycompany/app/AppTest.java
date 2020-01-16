@@ -16,7 +16,7 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         int k=0;
-        for (int i=1; i<2000000000; i++) {
+        for (int i=1; i<2000000000000; i++) {
             k=k+(1%i);
         }
         System.out.println(k);
