@@ -15,7 +15,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      # -T 1C 11
+      # -T 1C 11 12
       run: mvn -B -T 1C package --file pom.xml
     - name: azd with Maven
       run: mvn --version
