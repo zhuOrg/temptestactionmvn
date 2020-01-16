@@ -30,5 +30,20 @@ public class AppTest
             m=m+(1%i);
         }
         System.out.println(m);
+        k=0;
+        for (int i=1; i<2000000000; i++) {
+            k=k+(1%i);
+        }
+        System.out.println(k);
+        j=0;
+        for (int i=1; i<2000000000; i++) {
+            j=j+(1%i);
+        }
+        System.out.println(j);
+        m=0;
+        for (int i=1; i<2000000000; i++) {
+            m=m+(1%i);
+        }
+        System.out.println(m);
     }
 }
